@@ -1,0 +1,12 @@
+<ag-grid-angular
+  style="width: 100%; height: 550px;"
+  [class]="themeClass"
+  [rowData]="rowData"
+  [columnDefs]="colDefs"
+  [defaultColDef]="defaultColDef"
+  [pagination]="true"
+  [suppressRowClickSelection]="true"
+  [rowSelection]="rowSelection"
+  (gridReady)="onGridReady($event)"
+>
+</ag-grid-angular>
